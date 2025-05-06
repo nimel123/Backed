@@ -1,5 +1,5 @@
 import {  MongoClient } from "mongodb";
-const client=new MongoClient('mongodb://localhost:27017/');
+const client=new MongoClient('mongodb+srv://rameshnimel934:Cu59mx8EGa62f4Ec@food-items.rtltbyh.mongodb.net/?retryWrites=true&w=majority&appName=Food-Items');
 let db;
 
 const Connection=async()=>{
